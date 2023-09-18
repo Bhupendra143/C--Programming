@@ -27,8 +27,8 @@ void time::sum(time t1, time t2)
 int main()
 {
     time T1, T2, T3;
-    T1.gettime(2, 40);
-    T2.gettime(3, 50);
+    T1.gettime(5, 40);
+    T2.gettime(2, 50);
     T3.sum(T1, T2);//passing objects by value
     cout << "T1=";
     T1.display();

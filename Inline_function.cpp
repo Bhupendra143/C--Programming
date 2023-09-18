@@ -1,17 +1,18 @@
 // Concept of inline function in C++
 #include <iostream>
 using namespace std;
-inline int sum(int a, int b)
+inline float sum(float a, float b)
 {
-    int sum = a + b;
+    float sum = a / b;
     return sum;
 }
 int main()
 {
-    int p, q, k;
-    cout << "Enter the two numbers to add" << endl;
+    float p, q; 
+    float k;
+    cout << "Enter the two numbers " << endl;
     cin >> p >> q;
     k = sum(p, q);
     cout << "the sum is=" << k << endl;
     return 0;
-}
+} 
