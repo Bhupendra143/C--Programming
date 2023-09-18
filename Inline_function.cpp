@@ -3,14 +3,14 @@
 using namespace std;
 inline float sum(float a, float b)
 {
-    float sum = a / b;
+    float sum = a + b;
     return sum;
 }
 int main()
 {
     float p, q; 
     float k;
-    cout << "Enter the two numbers " << endl;
+    cout << "Enter the two numbers to add " << endl;
     cin >> p >> q;
     k = sum(p, q);
     cout << "the sum is=" << k << endl;
