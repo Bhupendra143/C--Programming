@@ -1,9 +1,9 @@
 // concept of function overloading
 #include <iostream>
 using namespace std;
-float volume(float);//function overloaded
-float volume(int, float);//function overloaded
-float volume(float, float, float);//function overloaded
+float volume(float);//function overloaded 
+float volume(int, float);//function overloaded 
+float volume(float, float, float);//function overloaded 
 int main()
 {
     int l, b, h1,h2, r, s;
